@@ -1,5 +1,6 @@
 **Bot-tiquette**
-*A crowdsourced etiquette for reddit bots.*  
+*A crowdsourced etiquette for reddit bots (based on*
+  *[/wiki/bottiquette](http://www.reddit.com/wiki/bottiquette))*  
 *[Reddit API's Access Rules](#reddit-apis-access-rules) |
 [Bot-tiquette](#bot-tiquette) |
 [Bots that Should Never be Created](#bots-that-should-never-be-created) |
