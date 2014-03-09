@@ -3,7 +3,7 @@
 
 ---
 
-**Reddit API's Access Rules**
+##### Reddit API's Access Rules
 
 - *Make no more than thirty requests per minute.*
 - *Change your client's User-Agent string to something unique and descriptive*  
@@ -13,7 +13,7 @@ for single-resources in a loop.*
 
 ---
 
-**Bot-tiquette**
+##### Bot-tiquette
 
 - **Do not disrupt the flow of the conversation**  
   A bot is meant to enchance the flow of a conversation, not destroy it. This is
@@ -81,9 +81,16 @@ for single-resources in a loop.*
   should not upvote any posts or amplify a user's upvote.
 
 ---
-**Bots that Should Never be Created**
-These popular types of bots are a blatant violation of the bottiquette above.
+##### Bots that Should Never be Created
 
-  - Bots that correct spelling or grammar.
-  - Bots that restore a deleted comment or post.
-  - Bots whose sole purpose is to harass a user or group of users.
+- Bots that correct spelling or grammar.
+- Bots that restore a deleted comment or post.
+- Bots whose sole purpose is to harass a user or group of users.
+
+---
+##### Links and Resources
+
+- [**Setting up a bot on Heroku**](https://gist.github.com/avidw/9438841):
+  Heroku is a powerful tool for running bots 24/7 with little to no maintenance.
+- [**Anti-abuse functions for PRAW**](https://github.com/acini/praw-antiabuse-functions):
+  Functions that help bot makers stick to the bottiquette above.
