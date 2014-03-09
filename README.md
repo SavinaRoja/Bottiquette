@@ -94,6 +94,8 @@ for single-resources in a loop.*
 ---
 ##### Links and Resources
 
+- [**Blacklisted subreddits**](https://raw.github.com/RequestABot/Bottiquette/master/blacklist.json):
+  This JSON file can be downloaded and used to skip blacklisted subreddits.
 - [**Setting up a bot on Heroku**](https://gist.github.com/avidw/9438841):
   Heroku is a powerful tool for running bots 24/7 with little to no maintenance.
 - [**Anti-abuse functions for PRAW**](https://github.com/acini/praw-antiabuse-functions):
