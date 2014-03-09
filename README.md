@@ -15,6 +15,11 @@ for single-resources in a loop.*
 
 **Bot-tiquette**
 
+- **Do not disrupt the flow of the conversation**  
+  A bot is meant to enchance the flow of a conversation, not destroy it. This is
+  more or less the "golden rule" of bots and many of the following rules are
+  based on it.
+
 - **Blacklist certain subreddits unless requested by the subreddit's moderators**  
   Bots do not belong on some subreddits, especially those which encourage serious
   discussion, such as
@@ -34,11 +39,6 @@ for single-resources in a loop.*
   not explicitly "summoned" by the user, create a way to opt-out of the bot's
   services.  
   **Suggestion**: *Depending on the bot, you may also want to make it opt-in.*
-
-- **Do not disrupt the flow of the conversation**  
-  A bot is meant to enchance the flow of a conversation, not destroy it. This is
-  more or less the "golden rule" of bots and many of the following rules are
-  based on it.
 
 - **Limit the number of replies per submission**  
   To make sure your bot doesn't saturate the thread with replies, keep a
