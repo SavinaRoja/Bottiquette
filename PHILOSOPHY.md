@@ -93,7 +93,7 @@ to PRAW/Python.*
     print("Rate limit %d seconds" % error.sleep_time, file=sys.stderr)
   ```
 
-- **Bot should not listen on /r/all**
+- **Bot should not listen on /r/all**  
   The bot should not listen on r/all but a list of specified
   subreddits. This makes removing banned subreddits easier
   and the bot more targeted.
