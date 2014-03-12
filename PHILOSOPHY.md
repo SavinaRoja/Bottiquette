@@ -90,7 +90,7 @@ to PRAW/Python.*
     print("Reply to %s" % comment.permalink)
     comment.reply("Hello World")
   except praw.errors.RateLimitExceeded as e:
-    print("Rate limit %d seconds" % error.sleep_time, file=sys.stderr)
+    print("Rate limit %d seconds" % e.sleep_time, file=sys.stderr)
   ```
 
 - **Bot should not listen on /r/all**  
