@@ -18,6 +18,7 @@ to PRAW/Python.*
   code cannot gain access to the bot or your database.
 
   ```python
+    # This code example is a bit forgiving:
     def login(username=None, password=None):
       username = username or os.environ.get("REDDIT_USERNAME", None)
       password = password or os.environ.get("REDDIT_PASSWORD", None)
@@ -47,6 +48,7 @@ to PRAW/Python.*
   ```
   
   ```python
+    # a backup to determine if the bot has already commented
     already_commented = any(reply.author != None or str(reply.author) != username for reply in comment.replies)
   ```
   
@@ -66,7 +68,7 @@ to PRAW/Python.*
   from losing your previous completed ids.
 
   ```python
-  import bmemcached
+  import bmemcached # or other key-value stores like redis  
   m = bmemcached.Client((os.environ['MEMCACHEDCLOUD_SERVERS'],), 
                          os.environ['MEMCACHEDCLOUD_USERNAME'],
                          os.environ['MEMCACHEDCLOUD_PASSWORD'])
