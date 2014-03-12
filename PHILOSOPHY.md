@@ -53,9 +53,12 @@ to PRAW/Python.*
   ```
   
 - **Only one instance of the bot is run simultaneously**  
-  This prevents two separate instances of the bot from
-  commenting on the same submission/comment twice. This
-  also prevent two bots from hanging over one resource.
+  This is a possible problem of running your bot with a
+  cron job. The scheduler may start another instance of
+  your bot before the first one has completed. This may
+  cause the bots to comment on the same submission/comment
+  twice. There are many ways to solve this, such as using
+  a PID file or using the `tendo` module as shown below.
 
   ```python
   # http://stackoverflow.com/a/1265445/898577
