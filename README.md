@@ -55,9 +55,9 @@ for single-resources in a loop.*
   This would not only cause a great amount of "stress" on the bot, it would also
   derail conversations by appearing too frequently in threads. What constitutes
   a common word or phrase is up to the creator.  
-  **Suggestion**: *There are many ways to limit the appearance of a bot. You can 
-  use a narrower regular expression or only reply to comments with a lot of
-  upvotes. __Consider making a bot appear only when specifically called.__*
+  **Suggestion**: *There are many ways to limit the appearance of a bot, such as 
+  using a narrower regular expression.  __Consider making the bot appear only
+  when specifically called.__*
 
 - **Do not run a duplicate bot**  
   Before releasing your bot, make sure there are no other bots that serve a
