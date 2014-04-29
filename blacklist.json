@@ -1,12 +1,36 @@
-[
-  "aww",
-  "chicagosuburbs",
-  "cosplay",
-  "d3gf",
-  "depression",
-  "drinkingdollars",
-  "omaha",
-  "raerthdev",
-  "seiko",
-  "suicidewatch"
-]
+{
+  "disallowed": [
+    "aww",
+    "asianamerican",
+    "chicagosuburbs",
+    "cosplay",
+    "d3gf",
+    "deer",
+    "depression",
+    "drinkingdollars",
+    "forwardsfromgrandma",
+    "indianfetish",
+    "misc",
+    "omaha",
+    "petstacking",
+    "programmingcirclejerk",
+    "raerthdev",
+    "seiko",
+    "suicidewatch",
+    "unitedkingdom"
+  ],
+  "permission": [
+    "futurology",
+    "graphic_design",
+    "historicalwhatif",
+    "lolgrindr",
+    "malifaux",
+    "toonami"
+  ],
+  "posts-only": [
+    "bmw"
+  ],
+  "comments-only": [
+    "talesfromyourserver"
+  ]
+}
