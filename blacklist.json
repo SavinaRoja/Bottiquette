@@ -1,11 +1,13 @@
 {
   "disallowed": [
+    "anime",
     "aww",
     "asianamerican",
     "askhistorians",
     "askscience",
     "chicagosuburbs",
     "cosplay",
+    "cumberbitches",
     "d3gf",
     "deer",
     "depression",
@@ -15,6 +17,7 @@
     "indianfetish",
     "misc",
     "mixedbreeds",
+    "news",
     "omaha",
     "petstacking",
     "programmingcirclejerk",
@@ -35,7 +38,8 @@
     "toonami"
   ],
   "posts-only": [
-    "bmw"
+    "bmw",
+    "politics"
   ],
   "comments-only": [
     "talesfromyourserver"
