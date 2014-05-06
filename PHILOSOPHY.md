@@ -20,8 +20,8 @@ to PRAW/Python.*
   ```python
     # This code example is a bit forgiving:
     def login(username=None, password=None):
-      username = username or os.environ.get("REDDIT_USERNAME", None)
-      password = password or os.environ.get("REDDIT_PASSWORD", None)
+      username = os.environ.get("REDDIT_USERNAME", username)
+      password = os.environ.get("REDDIT_PASSWORD", password)
       if username == None or password == None:
         raise Exception("You did not provide a reddit username or password!")
       ...
@@ -49,6 +49,8 @@ to PRAW/Python.*
   
   ```python
     # a backup to determine if the bot has already commented
+    
+    comment = r.get_submission(url="...").comments[0]
     already_commented = any(reply.author != None or str(reply.author) != username for reply in comment.replies)
   ```
   
